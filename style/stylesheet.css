@@ -14,14 +14,14 @@
   padding: 12px;
 }
 .content {
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 500px;
+  padding-right: 500px;
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
   text-transform: inherit;
   font-size: 17px;
-  font-family: sans-serif;
+  font-family: inherit;
   background-color: #212121;
   color: white;
   height: auto;

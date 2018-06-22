@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Users/fon/Documents/Atom/RestuarantDemo/style/stylesheet.css">
+
+    <title>Hello, Restaurant</title>
+  </head>
+  <body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+      <div class="navbar"></div>
+      <nav class="navbar-fixed-top navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <img src="/docs/4.1/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
+        </a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Food</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="lunch.html">Lunch</a>
+                <a class="dropdown-item" href="dinner.html">Dinner</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="dessert.html">Dessert</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="beverage.html">Beverage</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    </div>
+    <div class="content">
+    <h2>Register</h2>
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email address" required>
+      </div>
+      <div class="form-group">
+        <label for="inputPassword4">Password</label>
+        <input pattern=".{8,12}" type="password" name="password" class="form-control" aria-describedby="passwordHelpInline" id="inputPassword6" placeholder="Password" required title="Must be 8-12 characters.">
+        <small id="passwordHelpInline" class="text-muted">Must be 8-12 characters long.</small>
+      </div>
+      <div class="form-group">
+        <div class="form-row">
+          <div class="col">
+            <label for="firstnameType">Firstname</label>
+            <input type="text" class="form-control" placeholder="First name" required>
+          </div>
+          <div class="col">
+            <label for="LastnameType">Lastname</label>
+            <input type="text" class="form-control" placeholder="Last name" required>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Address</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+        <label class="form-check-label" for="invalidCheck">
+          Agree to terms and conditions
+        </label>
+        <div class="invalid-feedback">
+          You must agree before submitting.
+        </div>
+      </div>
+      <br>
+      <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+    </div>
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <h5>About us</h5>
+              <p>This is my portfolio</p>
+              <br>
+            <h5>Join us</h5>
+            <a href="register.html">Register</a>
+          </div>
+          <div class="col-sm">
+            <h5>Newsletter</h5>
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Enter your email</label>
+                <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email address" required><br>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+            </form>
+          </div>
+          <div class="col-sm">
+            <h5>Contact us</h5>
+            Phone | (+66) 90-669-1556<br>
+            Email | ph.prapatsorn@gmail.com<br>
+            <br>
+            <h5>Follow us</h5>
+            <a href="https://www.facebook.com/fonniiz.phadungkit">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/2000px-F_icon.svg.png" width="30px" height="30px">
+            </a>
+            <a href="https://www.instagram.com/nufonniiz/">
+              <img src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-instagram-new-square2-256.png" width="30px" height="30px">
+            </a>
+          </div>
+        </div>
+      </div>
+      <p class="header">
+        ©2018 Prapatsorn Phadungkit, All rights reserved
+      </p>
+    </div>
+    <div class="navbar"></div>
+  </body>
+</html>

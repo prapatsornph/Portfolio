@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="/Users/fon/Documents/Atom/RestuarantDemo/style/stylesheet.css">
 
-    <title>Hello, Yoyo's restaurant</title>
+    <title>Hello, Restaurant</title>
   </head>
   <body>
     <!-- Optional JavaScript -->
@@ -32,11 +32,8 @@
           <li class="nav-item">
             <a class="nav-link dropdown-toggle" href="food.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Food</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Breakfast</a>
-              <a class="dropdown-item" href="#">Lunch</a>
-              <a class="dropdown-item" href="#">Dinner</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" href="lunch.html">Lunch</a>
+              <a class="dropdown-item" href="dinner.html">Dinner</a>
             </div>
           </li>
           <li class="nav-item dropdown">
@@ -59,7 +56,7 @@
       <div class="card" style="width: 15rem;">
         <img class="card-img-top" src="https://i.pinimg.com/736x/6d/91/d6/6d91d6ecc4ae7717f5ae29f1892919dd--san-pellegrino-bella.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Mizu Shingen Mochi</h5>
+          <h5 class="card-title">Juice</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
@@ -70,7 +67,7 @@
       <div class="card" style="width: 15rem;">
         <img class="card-img-top" src="http://foodstylistchannel.com/wp-content/uploads/2016/12/ovaltine-640x640.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Mango Bingsu</h5>
+          <h5 class="card-title">Ovaltine</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
@@ -80,7 +77,7 @@
       <div class="card" style="width: 15rem;">
         <img class="card-img-top" src="http://www.alovesquad.com/wp-content/uploads/2016/12/Carrots-spinach-apple-juice-640x640.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Pancake Choco</h5>
+          <h5 class="card-title">Carrot</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
@@ -92,7 +89,7 @@
       <div class="card" style="width: 15rem;">
         <img class="card-img-top" src="https://www.iprospect.com/~/media/Global/Our%20Work/Case%20Studies/Coca%20Cola%20-%20SP/coca-cola%20640x640.jpg?h=640&la=en&w=640" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Pancake with Banana</h5>
+          <h5 class="card-title">Coca-cola</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
@@ -103,7 +100,7 @@
       <div class="card" style="width: 15rem;">
         <img class="card-img-top" src="https://cache.gmo2.sistacafe.com/images/uploads/content_image/image/416591/1502254264-1445910237-healthysmoothies_article_1_.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Mango Bingsu</h5>
+          <h5 class="card-title">Strawberry Smoothie</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
@@ -113,7 +110,7 @@
       <div class="card" style="width: 15rem;">
         <img class="card-img-top" src="https://shop.nomu.co.za/image/cache/data/Unsweetened%20Cocoa%20Drink%20Banana%20and%20Peanut%20Butter%20Smoothie%20Recipe%20Image-640x640.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Pancake Choco</h5>
+          <h5 class="card-title">Coaco</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
@@ -126,13 +123,17 @@
       <div class="row">
         <div class="col-sm">
           <h5>About us</h5>
+          <p>This is my portfolio</p>
+          <br>
+          <h5>Join us</h5>
+          <a href="register.html">Register</a>
         </div>
         <div class="col-sm">
           <h5>Newsletter</h5>
           <form>
             <div class="form-group">
-              <label for="exampleInputEmail1">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"><br>
+              <label for="exampleInputEmail1">Enter your email</label>
+              <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email address" required><br>
             <button type="submit" class="btn btn-primary">Submit</button>
           </div>
           </form>
@@ -153,7 +154,7 @@
       </div>
     </div>
     <p class="header">
-      ©2018 my Restaurant, All rights reserved
+      ©2018 Prapatsorn Phadungkit, All rights reserved
     </p>
   </div>
   <div class="navbar"></div>

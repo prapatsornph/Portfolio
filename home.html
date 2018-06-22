@@ -29,13 +29,10 @@
               <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link dropdown-toggle" href="food.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Food</a>
+              <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Food</a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Breakfast</a>
-                <a class="dropdown-item" href="#">Lunch</a>
-                <a class="dropdown-item" href="#">Dinner</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="lunch.html">Lunch</a>
+                <a class="dropdown-item" href="dinner.html">Dinner</a>
               </div>
             </li>
             <li class="nav-item dropdown">
@@ -81,8 +78,8 @@
   <div class="content">
     <h2>Welcome to my Restaurant</h2>
     <h5>Hours of Operation</h5>
-    <p>Lunch | Mon - Fri : 11.00 am - 13.00 pm<br>
-      Dinner | Mon - Sat : 16.00 pm - 21.00 pm
+    <p><strong>Lunch</strong> | Mon - Fri : 11.00 am - 13.00 pm<br>
+      <strong>Dinner</strong> | Mon - Sat : 16.00 pm - 21.00 pm
     </p>
   </div>
   <div class="footer">
@@ -90,13 +87,17 @@
       <div class="row">
         <div class="col-sm">
           <h5>About us</h5>
+          <p>This is my portfolio</p>
+          <br>
+          <h5>Join us</h5>
+          <a href="register.html">Register</a>
         </div>
         <div class="col-sm">
           <h5>Newsletter</h5>
           <form>
             <div class="form-group">
-              <label for="exampleInputEmail1">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"><br>
+              <label for="exampleInputEmail1">Enter your email</label>
+              <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email address" required><br>
             <button type="submit" class="btn btn-primary">Submit</button>
           </div>
           </form>
@@ -117,7 +118,7 @@
       </div>
     </div>
     <p class="header">
-      ©2018 my Restaurant, All rights reserved
+      ©2018 Prapatsorn Phadungkit, All rights reserved
     </p>
   </div>
   <div class="navbar"></div>
